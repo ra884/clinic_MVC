@@ -1,0 +1,13 @@
+﻿@model Clinic_MVC.Models.Patient
+<h2>Add New Patient</h2>
+<form method="post" asp-action="/Patient/Create">
+	<div>
+		<label>Name</label>
+		<input asp-for="Name" />
+	</div>
+	<div>
+		<label>Age</label>
+		<input asp-for="Age" />
+	</div>
+	<button type="submit">Save</button>
+</form>

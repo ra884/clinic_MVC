@@ -1,0 +1,22 @@
+﻿@model List<Clinic_MVC.Models.Appointment>
+<h2>Appointments</h2>
+<a href="/Appointment/Create">Add New Appointment</a>
+<table>
+<tr>
+	<th>Date</th>
+	<th>DoctorId</th>
+	<th>PatientId</th>
+	<th>Notes</th>
+		</tr>
+	@foreach (var a in Model)
+	{
+				<tr>
+					<td>@a.Date</td>
+					<td>@a.DoctorId</td>
+					<td>@a.PatientId</td>
+					<td>@a.Notes</td>
+				</tr>
+
+	}
+</table>
+

@@ -1,0 +1,23 @@
+﻿@model Clinic_MVC.Models.Appointment
+<h2>Add New Appointment</h2>
+<form method="post" asp-action="/Appointment/Create">
+	<div>
+		<label>Date</label>
+		<input asp-for="Date" />
+	</div>
+	<div>
+		<select asp-for="DoctorId" asp-items="@(new SelectList(ViewBag.Doctors,"DoctorId","Name"))">
+			<option value="">-- Select Doctor --</option>
+		</select>
+	</div>
+	<div>
+		<select asp-for="PatientId" asp-items="@(new SelectList(ViewBag.Patients,"PatientId","Name"))">
+			<option value="">-- Select Patient --</option>
+		</select>
+	</div>
+	<div>
+		<label>Notes</label>
+		<input asp-for="Notes" type="text" />
+	</div>
+	<button type="submit">Save</button>
+</form>
