@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\hp\\source\\repos\\Clinic_MVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|c:\\users\\hp\\source\\repos\\clinic_mvc\\clinic_mvc\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|solutionrelative:clinic_mvc\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|c:\\users\\hp\\source\\repos\\clinic_mvc\\clinic_mvc\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|solutionrelative:clinic_mvc\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|c:\\users\\hp\\source\\repos\\clinic_mvc\\clinic_mvc\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|solutionrelative:clinic_mvc\\views\\appointment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|c:\\users\\hp\\source\\repos\\clinic_mvc\\clinic_mvc\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|solutionrelative:clinic_mvc\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6823346C-5A13-45AB-A116-30D68192FABF}|Clinic_MVC\\Clinic_MVC.csproj|c:\\users\\hp\\source\\repos\\clinic_mvc\\clinic_mvc\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Clinic_MVC\\Clinic_MVC\\User.cs",
               "RelativeDocumentMoniker": "Clinic_MVC\\User.cs",
@@ -91,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Clinic_MVC\\Clinic_MVC\\Views\\Appointment\\Create.cshtml",
               "RelativeDocumentMoniker": "Clinic_MVC\\Views\\Appointment\\Create.cshtml",
@@ -103,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Clinic_MVC\\Clinic_MVC\\Views\\Appointment\\Index.cshtml",
               "RelativeDocumentMoniker": "Clinic_MVC\\Views\\Appointment\\Index.cshtml",
@@ -111,8 +111,7 @@
               "RelativeToolTip": "Clinic_MVC\\Views\\Appointment\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-29T18:36:07.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-29T18:36:07.232Z"
             },
             {
               "$type": "Document",
@@ -164,15 +163,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AppointmentController.cs",
               "DocumentMoniker": "C:\\Users\\hp\\source\\repos\\Clinic_MVC\\Clinic_MVC\\Controllers\\AppointmentController.cs",
               "RelativeDocumentMoniker": "Clinic_MVC\\Controllers\\AppointmentController.cs",
               "ToolTip": "C:\\Users\\hp\\source\\repos\\Clinic_MVC\\Clinic_MVC\\Controllers\\AppointmentController.cs",
               "RelativeToolTip": "Clinic_MVC\\Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBAAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T17:39:46.366Z"
+              "WhenOpened": "2026-03-29T17:39:46.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
