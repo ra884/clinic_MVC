@@ -35,5 +35,6 @@ namespace Clinic_MVC.Controllers
             ViewBag.Patients=context.Patients.ToList(); 
             return View();
         }
+        //new edit
     }
 }
